@@ -6,12 +6,12 @@ Run the script with an input file
 ```bash
   python3 parse.py < input_file
 ```
-use `bash --stats=file` flag to enable statistics output or `bash --help` flag for usage information
+use `--stats=file` flag to enable statistics output or `--help` flag for usage information
 
 ## Exit Codes:
 0: Success
 10: Invalid arguments or unsupported options.
-21: Missing or malformed `bash .IPPcode24` header.
+21: Missing or malformed `.IPPcode24` header.
 22: Unsupported instructions after a valid header.
 23: Invalid argument format, duplicate headers, or empty input.
 12: Duplicate statistics output file usage.
