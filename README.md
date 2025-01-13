@@ -9,12 +9,12 @@ Run the script with an input file
 use `--stats=file` flag to enable statistics output or `--help` flag for usage information
 
 ## Exit Codes:
-0: Success
-10: Invalid arguments or unsupported options.
-21: Missing or malformed `.IPPcode24` header.
-22: Unsupported instructions after a valid header.
-23: Invalid argument format, duplicate headers, or empty input.
-12: Duplicate statistics output file usage.
+0: Success<br>
+10: Invalid arguments or unsupported options.<br>
+21: Missing or malformed `.IPPcode24` header.<br>
+22: Unsupported instructions after a valid header.<br>
+23: Invalid argument format, duplicate headers, or empty input.<br>
+12: Duplicate statistics output file usage.<br>
 
 ## Example input
 ```bash 
